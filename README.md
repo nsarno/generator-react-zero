@@ -1,4 +1,4 @@
-# generator-react-zero [![Build Status](https://secure.travis-ci.org/nsarno/generator-react-zero.png?branch=master)](https://travis-ci.org/nsarno/generator-react-zero)
+# generator-react-zero [![Build Status](https://travis-ci.org/nsarno/generator-react-zero.svg)](https://travis-ci.org/nsarno/generator-react-zero)
 
 > [Yeoman](http://yeoman.io) generator
 
