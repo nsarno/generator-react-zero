@@ -31,6 +31,10 @@ describe('react-zero:app', function () {
     assert.fileContent('package.json', new RegExp(project));
   });
 
+  it('creates .gitignore', function () {
+    assert.file(['.gitignore']);
+  });
+
   it('creates .editorconfig', function () {
     assert.file(['.editorconfig']);
   });
