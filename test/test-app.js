@@ -53,6 +53,20 @@ describe('react-zero:app', function () {
     ]);
   });
 
+  it('creates a bin directory', function () {
+    assert.file([
+      'bin',
+      'bin/test'
+    ]);
+  });
+
+  it('creates a test directory', function () {
+    assert.file([
+      'test',
+      'test/components/App-test.js'
+    ]);
+  });
+
   it('creates sass project structure', function () {
     assert.file([
       'app/styles/modules/_all.scss',

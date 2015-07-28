@@ -8,6 +8,7 @@
   },
   "scripts": {
     "start": "npm run watch & npm run serve",
+    "test": "bin/test",
     "build": "npm run build:js && npm run build:css && npm run build:assets",
     "watch": "npm run watch:js & npm run watch:css & npm run watch:assets",
     "build:js": "browserify -d --extension=.jsx --extension=.js -e app/scripts/initialize.jsx | exorcist public/bundle.map.js > public/bundle.js",

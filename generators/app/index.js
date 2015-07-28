@@ -41,6 +41,14 @@ module.exports = yeoman.generators.Base.extend({
         this.destinationPath('app')
       );
       this.directory(
+        this.templatePath('test'),
+        this.destinationPath('test')
+      );
+      this.directory(
+        this.templatePath('bin'),
+        this.destinationPath('bin')
+      );
+      this.directory(
         this.templatePath('public'),
         this.destinationPath('public')
       );
