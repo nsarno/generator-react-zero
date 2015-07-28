@@ -1,7 +1,7 @@
 {
   "name": "generator-react-zero",
-  "version": "1.0.0",
-  "description": "Yeoman generator",
+  "version": "0.0.1",
+  "description": "A yeoman generator for react/flux",
   "license": "MIT",
   "main": "app/index.js",
   "repository": "nsarno/generator-react-zero",
@@ -17,7 +17,12 @@
     "generators"
   ],
   "keywords": [
-    "yeoman-generator"
+    "yeoman-generator",
+    "react",
+    "flux",
+    "app",
+    "front-end",
+    "scaffold"
   ],
   "dependencies": {
     "chalk": "^1.0.0",
