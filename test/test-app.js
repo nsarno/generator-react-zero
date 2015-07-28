@@ -55,8 +55,12 @@ describe('react-zero:app', function () {
 
   it('creates sass project structure', function () {
     assert.file([
-      'app/styles/modules/.keep',
-      'app/styles/partials/.keep',
+      'app/styles/modules/_all.scss',
+      'app/styles/modules/_colors.scss',
+      'app/styles/partials/_base.scss',
+      'app/styles/vendor/bourbon',
+      'app/styles/vendor/neat',
+      'app/styles/vendor/base',
       'app/styles/app.scss'
     ]);
   });
