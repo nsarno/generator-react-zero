@@ -19,6 +19,22 @@ A [Yeoman](http://yeoman.io) generator to bootstrap a React/Flux application.
   - copy all files & folder from assets folder "as is"
 - Serve in browser
 
+## Getting Started
+
+Install yeoman and the react-zero generator:
+
+```bash
+$ npm install -g yo
+$ npm install -g generator-react-zero
+```
+
+Run the generator:
+
+```bash
+$ mkdir myapp && cd myapp
+$ yo react-zero
+```
+
 ## Usage
 
 The entire build process is based on NPM ([no, you don't need Gulp](http://gon.to/2015/02/26/gulp-is-awesome-but-do-we-really-need-it/)).
