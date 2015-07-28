@@ -6,19 +6,24 @@ A [Yeoman](http://yeoman.io) generator to bootstrap a React/Flux application.
 
 ## Features
 
-- JS Build 
-  - JS bundling (with [Browserify](http://browserify.org/)) 
-  - External sourcemaps
-  - ES6 transpiling
-  - JSX transpiling
-  - Watch & sync browser
-- CSS build
-  - SASS transpiling
-  - Watch & sync browser
-- Assets
-  - copy all files & folder from assets folder "as is"
-  - Watch & sync browser
-- Serve in browser
+- React/Flux project scaffold
+- Sub-generator for react components
+- Setup tests (with [tape](https://github.com/substack/tape))
+- Sass project scaffold with [Bourbon, neat & bitters](http://bourbon.io/)
+- Complete build process with npm ([no, you don't need Gulp](http://gon.to/2015/02/26/gulp-is-awesome-but-do-we-really-need-it/)).
+  - JS Build
+    - JS bundling (with [Browserify](http://browserify.org/)) 
+    - External sourcemaps
+    - ES6 transpiling
+    - JSX transpiling
+    - Watch & sync browser
+  - CSS build
+    - SASS transpiling
+    - Watch & sync browser
+  - Assets copy
+    - copy all assets to `public/`
+    - Watch & sync browser
+  - Serve in browser
 
 ## Getting Started
 
@@ -44,7 +49,7 @@ $ yo react-zero:component
 
 ## Usage
 
-The entire build process is based on NPM ([no, you don't need Gulp](http://gon.to/2015/02/26/gulp-is-awesome-but-do-we-really-need-it/)).
+The entire build process is based on NPM.
 
 ### Build, watch & serve
 
@@ -88,9 +93,22 @@ $ npm run clean
 
 Remove content of `public/` folder.
 
+### Run tests
+
+Run all tests:
+
+```bash
+$ npm test
+```
+
+Or run separated tests:
+
+```bash
+$ npm test -- test/components/MyComponent-test.js
+```
+
 ## Future improvements
 
-- Add `npm test` command.
 - Assets optimization (minify, uglify, etc).
 
 ## License
