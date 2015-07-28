@@ -1,4 +1,6 @@
-# generator-react-zero [![Build Status](https://travis-ci.org/nsarno/generator-react-zero.svg)](https://travis-ci.org/nsarno/generator-react-zero)
+# generator-react-zero
+[![npm version](https://badge.fury.io/js/generator-react-zero.svg)](http://badge.fury.io/js/generator-react-zero)
+[![Build Status](https://travis-ci.org/nsarno/generator-react-zero.svg)](https://travis-ci.org/nsarno/generator-react-zero)
 
 A [Yeoman](http://yeoman.io) generator to bootstrap a React/Flux application.
 
