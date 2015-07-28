@@ -29,11 +29,17 @@ $ npm install -g yo
 $ npm install -g generator-react-zero
 ```
 
-Run the generator:
+Run the app generator:
 
 ```bash
 $ mkdir myapp && cd myapp
 $ yo react-zero
+```
+
+Run the component sub-generator (inside the project's directory):
+
+```bash
+$ yo react-zero:component
 ```
 
 ## Usage
@@ -85,7 +91,6 @@ Remove content of `public/` folder.
 ## Future improvements
 
 - Add `npm test` command.
-- Yeoman subgenerators (for components, etc).
 - Assets optimization (minify, uglify, etc).
 
 ## License
