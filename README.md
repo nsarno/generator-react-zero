@@ -49,7 +49,7 @@ $ npm start
 ### Build project
 
 ```bash
-$ npm build
+$ npm run build
 ```
 
 Build project in `public/`.
@@ -57,9 +57,9 @@ Build project in `public/`.
 You can also build the different part separately:
 
 ```bash
-$ npm build:js
-$ npm build:css
-$ npm build:assets
+$ npm run build:js
+$ npm run build:css
+$ npm run build:assets
 ```
 
 ### Watch project
@@ -69,7 +69,7 @@ Same as build, but replace `build` with `watch`
 ### Serve project
 
 ```bash
-$ npm serve
+$ npm run serve
 ```
 
 Browser sync the `public/` folder.
@@ -77,7 +77,7 @@ Browser sync the `public/` folder.
 ### Clean
 
 ```bash
-$ npm clean
+$ npm run clean
 ```
 
 Remove content of `public/` folder.
