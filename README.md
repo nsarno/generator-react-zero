@@ -17,6 +17,7 @@ A [Yeoman](http://yeoman.io) generator to bootstrap a React/Flux application.
   - Watch & sync browser
 - Assets
   - copy all files & folder from assets folder "as is"
+  - Watch & sync browser
 - Serve in browser
 
 ## Getting Started
