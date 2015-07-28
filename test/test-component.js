@@ -17,7 +17,7 @@ describe('react-zero:component', function () {
     assert.file('app/scripts/components/' + name + '.jsx');
   });
 
-  // it('creates a test file for the component', function() {
-  //   assert.file('src/scripts/components/__tests__/' + name + '-test.js');
-  // });
+  it('creates a test file for the component', function() {
+    assert.file('test/components/' + name + '-test.js');
+  });
 });

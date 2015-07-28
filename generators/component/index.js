@@ -30,11 +30,11 @@ module.exports = yeoman.generators.Base.extend({
         { name: this.props.name }
       );
 
-      // this.fs.copyTpl(
-      //   this.templatePath('_component-test.js'),
-      //   this.destinationPath('src/scripts/components/__tests__/' + this.props.name + '-test.js'),
-      //   { name: this.props.name }
-      // );
+      this.fs.copyTpl(
+        this.templatePath('_component-test.js'),
+        this.destinationPath('test/components/' + this.props.name + '-test.js'),
+        { name: this.props.name }
+      );
     }
   }
 });
