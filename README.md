@@ -111,6 +111,12 @@ $ npm test -- test/components/MyComponent-test.js
 
 - Assets optimization (minify, uglify, etc).
 
+## Resources
+
+- [Why I use tape instead of mocha & so should you](https://medium.com/javascript-scene/why-i-use-tape-instead-of-mocha-so-should-you-6aa105d8eaf4)
+- [Unit testing react components without a dom](http://simonsmith.io/unit-testing-react-components-without-a-dom/)
+- [Gulp is awesome, but do we really need it](http://gon.to/2015/02/26/gulp-is-awesome-but-do-we-really-need-it/)
+
 ## License
 
 MIT
