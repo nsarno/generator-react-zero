@@ -10,19 +10,17 @@ A [Yeoman](http://yeoman.io) generator to bootstrap a React/Flux application.
 - [x] Sub-generator for react components
 - [x] Test setup (with [tape](https://github.com/substack/tape))
 - [x] Sass scaffold with [Bourbon](http://bourbon.io/)
-- [x] Complete build process with npm ([no, you don't need Gulp](http://gon.to/2015/02/26/gulp-is-awesome-but-do-we-really-need-it/)).
+- [x] Complete build process with npm
   - JS Build
     - JS bundling (using [Browserify](http://browserify.org/)) 
     - External sourcemaps
     - ES6 + JSX transpiling (using [Babel](https://babeljs.io/))
-    - Watch & sync browser
   - CSS build
     - SASS transpiling
-    - Watch & sync browser
   - Assets copy
     - copy all assets to `public/`
-    - Watch & sync browser
   - Serve in browser
+  - Watch all & sync browser
 
 ## Getting Started
 
