@@ -6,11 +6,11 @@ A [Yeoman](http://yeoman.io) generator to bootstrap a React/Flux application.
 
 ## Features
 
-- React/Flux project scaffold
-- Sub-generator for react components
-- Setup tests (with [tape](https://github.com/substack/tape))
-- Sass project scaffold with [Bourbon, neat & bitters](http://bourbon.io/)
-- Complete build process with npm ([no, you don't need Gulp](http://gon.to/2015/02/26/gulp-is-awesome-but-do-we-really-need-it/)).
+- [x] React/Flux project scaffold
+- [x] Sub-generator for react components
+- [x] Test setup (with [tape](https://github.com/substack/tape))
+- [x] Sass scaffold with [Bourbon](http://bourbon.io/)
+- [x] Complete build process with npm ([no, you don't need Gulp](http://gon.to/2015/02/26/gulp-is-awesome-but-do-we-really-need-it/)).
   - JS Build
     - JS bundling (with [Browserify](http://browserify.org/)) 
     - External sourcemaps
