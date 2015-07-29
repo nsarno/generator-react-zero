@@ -12,10 +12,9 @@ A [Yeoman](http://yeoman.io) generator to bootstrap a React/Flux application.
 - [x] Sass scaffold with [Bourbon](http://bourbon.io/)
 - [x] Complete build process with npm ([no, you don't need Gulp](http://gon.to/2015/02/26/gulp-is-awesome-but-do-we-really-need-it/)).
   - JS Build
-    - JS bundling (with [Browserify](http://browserify.org/)) 
+    - JS bundling (using [Browserify](http://browserify.org/)) 
     - External sourcemaps
-    - ES6 transpiling
-    - JSX transpiling
+    - ES6 + JSX transpiling (using [Babel](https://babeljs.io/))
     - Watch & sync browser
   - CSS build
     - SASS transpiling
