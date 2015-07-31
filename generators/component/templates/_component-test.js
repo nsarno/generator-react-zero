@@ -1,13 +1,10 @@
 var test = require('tape');
-
 var React = require('react/addons');
-var TestUtils = React.addons.TestUtils;
-var shallowRenderer = TestUtils.createRenderer();
+var shallowRender = require('../support/shallowRender');
 
 var <%= name %> = require('../../app/scripts/components/<%= name %>');
 
-shallowRenderer.render(React.createElement(<%= name %>));
-const component = shallowRenderer.getRenderOutput();
+const component = shallowRender(<%= name %>);
 
 test('<%= name %> component has a valid type', function (t) {
   t.plan(1);

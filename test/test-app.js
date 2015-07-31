@@ -63,7 +63,8 @@ describe('react-zero:app', function () {
   it('creates a test directory', function () {
     assert.file([
       'test',
-      'test/components/App-test.js'
+      'test/components/App-test.js',
+      'test/support/shallowRender.js'
     ]);
   });
 
