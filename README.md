@@ -6,24 +6,21 @@ A [Yeoman](http://yeoman.io) generator to bootstrap a React/Flux application.
 
 ## Features
 
-- React/Flux project scaffold
-- Sub-generator for react components
-- Setup tests (with [tape](https://github.com/substack/tape))
-- Sass project scaffold with [Bourbon, neat & bitters](http://bourbon.io/)
-- Complete build process with npm ([no, you don't need Gulp](http://gon.to/2015/02/26/gulp-is-awesome-but-do-we-really-need-it/)).
+- [x] React/Flux project scaffold
+- [x] Sub-generator for react components
+- [x] Test setup (with [tape](https://github.com/substack/tape))
+- [x] Sass scaffold with [Bourbon](http://bourbon.io/)
+- [x] Complete build process with npm
   - JS Build
-    - JS bundling (with [Browserify](http://browserify.org/)) 
+    - JS bundling (using [Browserify](http://browserify.org/)) 
     - External sourcemaps
-    - ES6 transpiling
-    - JSX transpiling
-    - Watch & sync browser
+    - ES6 + JSX transpiling (using [Babel](https://babeljs.io/))
   - CSS build
     - SASS transpiling
-    - Watch & sync browser
   - Assets copy
     - copy all assets to `public/`
-    - Watch & sync browser
   - Serve in browser
+  - Watch all & sync browser
 
 ## Getting Started
 
@@ -110,6 +107,12 @@ $ npm test -- test/components/MyComponent-test.js
 ## Future improvements
 
 - Assets optimization (minify, uglify, etc).
+
+## Resources
+
+- [Why I use tape instead of mocha & so should you](https://medium.com/javascript-scene/why-i-use-tape-instead-of-mocha-so-should-you-6aa105d8eaf4)
+- [Unit testing react components without a dom](http://simonsmith.io/unit-testing-react-components-without-a-dom/)
+- [Gulp is awesome, but do we really need it](http://gon.to/2015/02/26/gulp-is-awesome-but-do-we-really-need-it/)
 
 ## License
 
